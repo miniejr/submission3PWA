@@ -20,8 +20,8 @@ if (workbox) {
       { url: "/js/materialize.min.js", revision: "1" },
       { url: "/js/script.js", revision: "1" },
       { url: "/js/nav.js", revision: "1" },
-      { url: "/img/paralax.jpg", revision: "1" },
-      { url: "/img/primierlogo.png", revision: "1" },
+      { url: "img/paralax.jpg", revision: "1" },
+      { url: "img/primierlogo.png", revision: "1" },
       {
         url: "https://fonts.googleapis.com/icon?family=Material+Icons",
         revision: "1",
