@@ -42,7 +42,7 @@
  if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
-      .register("workbox-sw.js")
+      .register("../workbox-sw.js")
       .then(() => {
         console.log("Pendaftaran ServiceWorker berhasil");
       })
