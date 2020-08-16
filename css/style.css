@@ -1,7 +1,7 @@
 .parallax-container {
   height: 600px;
   width: 100%;
-  background-image: url("/img/paralax.jpg");
+  background-image: url("img/paralax.jpg");
 }
 
 #standings h1 {
