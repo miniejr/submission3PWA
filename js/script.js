@@ -11,21 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
   getMatch();
 });
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function () {
-    navigator.serviceWorker
-      .register("/workbox-sw.js")
-      .then(function () {
-        console.log("Pendaftaran ServiceWorker berhasil");
-      })
-      .catch(function () {
-        console.log("Pendaftaran ServiceWorker gagal");
-      });
-  });
-} else {
-  console.log("ServiceWorker belum didukung browser ini.");
-}
-
 // Menerapkan Push Event pada ServiceWorker
 if (!("serviceWorker" in navigator)) {
   console.log("Service worker tidak didukung browser ini.");
