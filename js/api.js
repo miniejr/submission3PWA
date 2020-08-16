@@ -172,7 +172,7 @@ function dataPertandingan(data) {
 <tr>
 <td class="matchteam"><a href="./team.html?id=${match[i].homeTeam.id}">
 ${match[i].homeTeam.name}</a><br>${match[i].score.fullTime.homeTeam}</td>
-<td class="matchtd"><img src="/img/primierlogo.png" alt="logoprimier" class="imglogoprimier"></td>
+<td class="matchtd"><img src="img/primierlogo.png" alt="logoprimier" class="imglogoprimier"></td>
 <td class="matchteam"><a href="./team.html?id=${match[i].awayTeam.id}">
 ${match[i].awayTeam.name}</a><br>${match[i].score.fullTime.awayTeam}</td>
 </tr>
