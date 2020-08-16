@@ -26,7 +26,7 @@ if (workbox) {
         url: "https://fonts.googleapis.com/icon?family=Material+Icons",
         revision: "1",
       },
-      { url: "/manifest.json", revision: "1" },
+      { url: "manifest.json", revision: "1" },
       { url: "/img/icons/icon-144x144.png", revision: "1" },
       { url: "/img/notif.png", revision: "1" },
       { url: "/img/loader.gif", revision: "1" },
